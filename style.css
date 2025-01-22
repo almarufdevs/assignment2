@@ -1,0 +1,350 @@
+.header{
+    margin: 30px;
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.school{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img{
+   display: flex; 
+   justify-content: space-between;
+   
+}
+.home{
+    text-decoration: none;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.ho{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(255, 127, 249);
+    
+}
+.ab{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(226, 174, 43);
+}
+.fac{
+   text-decoration: none; 
+   margin-left: 10px;
+   margin-right: 10px;
+   color: rgb(77, 13, 137);
+   
+}
+.ad{
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(63, 165, 42);
+   
+}
+.con{
+    background-color: orange;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.dot{
+    display: none;
+}
+
+#bars{
+    background-color: aliceblue;
+}
+.he{
+    display: flex;
+    justify-content: space-between;
+    font-family:"Open Sans", serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.em{
+    color: orange;
+}
+.tow{
+    color: rgb(15, 153, 56);
+}
+.enr{
+  background-color: black;
+   color: white; 
+  border-radius: 20px;
+  padding: 15px;
+}
+.hero{
+  height: 400px;
+  width: 300px;  
+}
+.main{
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 40px;
+   background-image: url(./B11-A2-Kids-School/assets/bg.png);
+   
+}
+.stand{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px ;
+    text-decoration: none;
+}
+.card1{
+    border: 1px solid rgba(222, 245, 255, 1);
+    padding: 40PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20PX;
+    border-radius: 15PX;
+    text-align: center;
+ 
+     background-image: linear-gradient(rgba(222, 245, 255, 1),  rgba(255, 255, 255, 1));
+     box-shadow: 0 0 10PX  rgb(208, 204, 204);
+}
+.card2{
+    border: 1px solid rgba(222, 245, 255, 1);
+    padding: 40PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20PX;
+    border-radius: 15PX;
+    text-align: center;
+ 
+     background-image: linear-gradient(rgba(255, 244, 220, 1),  rgba(255, 255, 255, 1));
+     box-shadow: 0 0 10PX  rgb(208, 204, 204);
+}
+.card3{
+    border: 1px solid rgba(222, 245, 255, 1);
+    padding: 40PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20PX;
+    border-radius: 15PX;
+    text-align: center;
+ 
+     background-image: linear-gradient(rgba(242, 232, 255, 1),  rgba(255, 255, 255, 1));
+     box-shadow: 0 0 10PX  rgb(208, 204, 204);
+}
+.card1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+.card1 P{
+    font-size: 18PX;
+    line-height: 23PX;
+}
+.card2 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+.card2 P{
+    font-size: 18PX;
+    line-height: 23PX;
+}
+.card3 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+.card3 P{
+    font-size: 18PX;
+    line-height: 23PX;
+}
+.a1{
+    text-decoration: none;
+    color: rgba(100, 200, 255, 1);
+}
+.a2{
+    text-decoration: none;
+    color:rgba(240, 170, 0, 1) ;
+}
+.a3{
+    text-decoration: none;
+    color:rgba(135, 0, 255, 1) ;
+}
+.icon{
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   
+}
+.fa-solid, .fa-chevron-left{
+padding: 20px 25px;
+background-color: rgba(240, 170, 0, 1) ;
+border-radius:50% ;
+}
+.our{
+    text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 30px;
+}
+.stor{
+    display: flex;
+    justify-content: space-around;
+   padding: 10px;
+}
+.fun{
+    background-color: rgba(220, 227, 222, 0.833);
+    border: 1px solid skyblue;
+    border-radius: 20px;
+   height: 550px;
+    text-align: center;
+}
+.imge{
+    width: 520px;
+    height: 320px;
+     border-radius: 20px 20px 0 0;
+}
+.a4box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   padding-right: 0px;
+  margin: 10px;
+  
+   
+}
+.box1 {
+    background-color: rgba(220, 227, 222, 0.833);
+  border: 1px solid skyblue; 
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 20px; 
+  text-align: center;
+}
+
+.box2{
+    background-color: rgba(220, 227, 222, 0.833);
+  border: 1px solid skyblue; 
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 20px; 
+  text-align: center; 
+}
+.box3 {
+    background-color: rgba(220, 227, 222, 0.833);
+  border: 1px solid skyblue; 
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  text-align: center; 
+}
+.box4{
+    background-color: rgba(220, 227, 222, 0.833);
+  border: 1px solid skyblue; 
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 20px; 
+  text-align: center;
+}
+.nove{
+   background-color: green; 
+   border-radius: 20px;
+   border: none;
+}
+
+.im{
+    border-radius: 20px 20px 0 0;
+}
+.but1{
+   display: flex;
+   justify-content: center;
+   
+}
+.butt{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+.foot{
+    margin: 30px;
+    padding: 20px;
+    background-color:rgb(138, 156, 103) ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+} 
+.edu{
+    display: flex;
+
+}
+.about-school {
+    text-decoration: none;
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.keep{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:576px) {
+   .he{
+    flex-direction: column;
+   } 
+.ho,.ab,.fac,.ad,.fu,.con{
+    display: none;
+}
+    
+}
+@media screen  and (max-width:576px){
+    .dot{
+        display: block;
+    }
+    .hero{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+   
+    .card-container{
+        flex-direction: column;
+    }
+    .stor{
+        flex-direction: column;
+
+    }
+    .imge{
+        width: 100%;
+
+    }
+    .a4box{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+    }
+        
+    }
+    
+    
+    
